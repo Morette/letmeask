@@ -2,6 +2,8 @@ import illustarionImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 
+import { Button } from '../components/Button';
+
 import '../styles/auth.scss';
 
 export const Home = () => {
@@ -22,7 +24,7 @@ export const Home = () => {
           <div className="separator">or enter in a room</div>
           <form>
             <input type="text" placeholder="Input room number" />
-            <button type="submit">Enter room</button>
+            <Button type="submit">Enter room</Button>
           </form>
         </div>
       </main>
